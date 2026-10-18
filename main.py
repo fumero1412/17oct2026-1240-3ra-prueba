@@ -7,7 +7,7 @@ API_ID = int(os.environ.get("API_ID", "32695956"))
 API_HASH = os.environ.get("API_HASH", "8d939c8130ea03c01cd9abe6a6e83d7a")
 SESSION = os.environ.get("SESSION_STRING", "")
 GRUPO = int(os.environ.get("GRUPO_DESTINO", "-1003764262854"))
-TOPIC = int(os.environ.get("TOPIC_ID", 773753"))
+TOPIC = int(os.environ.get("TOPIC_ID", "773753"))
 CANAL = os.environ.get("CANAL_ORIGEN", "https://t.me/Horny_J")
 
 app = Flask(__name__)
